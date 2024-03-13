@@ -45,7 +45,7 @@ const main = async () => {
                 console.log( 'TempMáx:', clime.max );
             break;
             case 2:
-                searches.historial.forEach(( place, i ) => {
+                searches.historialCapitalized.forEach(( place, i ) => {
                     const idx = `${ i + 1 }.`.blue;
                     console.log( `${ idx } ${ place }` );
                 });
